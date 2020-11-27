@@ -1,0 +1,25 @@
+.icerik1 {
+    background: #d9ccc5ff;
+    color: #4b593eff;
+    width: 700px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 15px;
+    padding: 25px;
+    float: left;
+}
+
+.icerik2 {
+    background: #d9ccc5ff;
+    color: #4b593eff;
+    width: 425px;
+    height: 400px;
+    margin-right: 50px;
+    margin-top: 15px;
+    padding: 25px;
+    float: right;
+}
+
+img {
+    border-radius: 15px;
+}

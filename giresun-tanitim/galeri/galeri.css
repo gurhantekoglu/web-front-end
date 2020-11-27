@@ -1,0 +1,33 @@
+.icerik {
+    color: #4b593eff;
+}
+
+.icerik1 {
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.icerik1 p {
+    margin-left: 150px;
+}
+
+.icerik2 {
+    float: left;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.icerik2 p {
+    margin-left: 150px;
+}
+
+.icerik3 {
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.icerik3 p {
+    margin-left: 100px;
+}

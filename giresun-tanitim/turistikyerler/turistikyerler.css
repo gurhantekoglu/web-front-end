@@ -1,0 +1,41 @@
+.icerik {
+    color: #4b593eff;
+}
+
+.icerik1 img {
+    margin-left: 50px;
+    margin-top: 15px;
+    float: left;
+}
+
+.icerik1 p {
+    width: 1000px;
+    margin-right: 50px;
+    margin-top: 15px;
+    float: right;
+}
+
+.icerik2 img {
+    margin-top: 15px;
+    margin-right: 50px;
+    float: right;
+}
+
+.icerik2 p {
+    width: 1000px;
+    margin-left: 50px;
+    float: left;
+}
+
+.icerik3 img {
+    position: fixed;
+    top: 400px;
+    left: 50px;
+    float: left;
+}
+
+.icerik3 p {
+    width: 1000px;
+    margin-right: 50px;
+    float: right;
+}

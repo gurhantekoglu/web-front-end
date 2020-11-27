@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/2b2e0b2bae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>SpaceNinety - Türkiye'nin İlk Özel Uzay Şirketi</title>
+    <style>
+        .bg {
+            background-image: url(space.gif)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-dark text-white">
+        <nav class="navbar bg-dark navbar-expand fixed-top">
+            <a href="index.html" class="text-decoration-none">
+                <h3 class="text-white">SpaceNinety</h3>
+            </a>
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a href="#" onclick="smoothScroll(document.getElementById('bizkimiz'))"
+                        class="nav-link text-light">Biz Kimiz</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" onclick="smoothScroll(document.getElementById('kimleriuzayatasidik'))"
+                        class="nav-link text-light">Kimleri Uzaya Taşıdık</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" onclick="smoothScroll(document.getElementById('kariyer'))"
+                        class="nav-link text-light">Kariyer</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" onclick="smoothScroll(document.getElementById('iletisim'))"
+                        class="nav-link text-light">İletişim</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="bizkimiz" style="height: 660px;" class="bg p-5">
+        <h1 class="text-white text-center"><br>Biz Kimiz?</h1>
+        <p class="text-white text-center">
+            2020 yılının ilk çeyreğinde genç ve dinamik bir kadroyla kurulduk. Amacımız, Türkiye'nin ilk özel uzay
+            şirketi olarak şirketlerin adına uzaya uydu taşıyıp, onların kişisel amaçlarına ulaşmalarını sağlamaktı. İlk
+            2 test uçuşumuzda atmosferden çıkmayı başaran uzay aracımız, maalesef yeryüzüne başarılı bir şekilde
+            inemedi. Fakat yılmadık ve daha çok çalıştık. Nihayet yaptığımız 3. test uçuşu hatasız bir şekilde
+            gerçekleşti ve bunun sonucunda 55 Milyon dolarlık bir yatırımla iş hayatımıza başladık. 2020 yılında 7
+            uyduyu başarılı bir şekilde uzaya taşıdık. Haklı gururumuzu yaşamaya ve milletimize yaşatmaya devam
+            ediyoruz.
+            <br><br>
+            Kariyer yolculuğuna bizimle devam etmek ister misin?<br><br>
+            <button type="button" onclick="smoothScroll(document.getElementById('kariyer'))"
+                class="btn btn-outline-primary btn-lg">Kariyer</button>
+        </p>
+        <br>
+        <i onclick="smoothScroll(document.getElementById('kimleriuzayatasidik'))"
+            class="fas fa-angle-double-down fa-7x d-flex justify-content-center"></i>
+    </div>
+    <div id="kimleriuzayatasidik" style="height: 660px;" class="bg p-5">
+        <h1 class="text-white text-center"><br>Kimleri Uzaya Taşıdık?</h1>
+        <br>
+        <div class="container bg-outline-success">
+            <div id="controls" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-3"><img class="d-block w-100 h-75 img-thumbnail img-fluid rounded"
+                                    src="aselsan.png" alt=""></div>
+                            <div class="col-3"><img class="d-block w-100 h-75 img-thumbnail img-fluid rounded"
+                                    src="baykar.png" alt=""></div>
+                            <div class="col-3"><img class="d-block w-100 h-75 img-thumbnail img-fluid rounded"
+                                    src="iletisimbaskanligi.png" alt=""></div>
+                            <div class="col-3"><img class="d-block w-100 h-75 img-thumbnail img-fluid rounded"
+                                    src="tubitak.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3"><img class="d-block w-100 h-100 img-thumbnail img-fluid rounded"
+                                    src="turkcell.png" alt=""></div>
+                            <div class="col-3"><img class="d-block w-100 h-100 img-thumbnail img-fluid rounded"
+                                    src="turktelekom.png" alt=""></div>
+                            <div class="col-3"><img class="d-block w-100 h-100 img-thumbnail img-fluid rounded"
+                                    src="vodafone.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <i onclick="smoothScroll(document.getElementById('kariyer'))"
+            class="fas fa-angle-double-down fa-7x d-flex justify-content-center"></i>
+    </div>
+    <div id="kariyer" style="height: 660px;" class="bg p-5">
+        <h1 class="text-white text-center"><br>Kariyer</h1>
+        <div class="clearfix">
+            <form action="#">
+                <div class="w-50 float-left">
+                    <div class="form-group ml-3">
+                        <label for="ad" class="text-white">Ad</label>
+                        <br>
+                        <input type="text" id="ad" class="form-control" required>
+                    </div>
+                    <div class="form-group ml-3">
+                        <label for="soyad" class="text-white">Soyad</label>
+                        <br>
+                        <input type="text" id="soyad" class="form-control" required>
+                    </div>
+                    <div class="form-group ml-3">
+                        <label for="eposta" class="text-white">E-Posta</label>
+                        <br>
+                        <input type="email" id="eposta" class="form-control" required>
+                    </div>
+                    <div class="form-group ml-3">
+                        <label for="tel" class="text-white">Telefon (+90)</label>
+                        <br>
+                        <input type="tel" id="tel" class="form-control" required>
+                        <small class="form-text text-info">Buraya yazılan telefon numarası üzerinden irtibat
+                            kurulacaktır.</small>
+                    </div>
+                </div>
+                <div class="w-50 float-left">
+                    <div class="form-group ml-3">
+                        <label for="departman" class="text-white">Departman</label>
+                        <br>
+                        <select name="departman" id="departman" class="form-control">
+                            <option value="0">Departman Seç</option>
+                            <option value="1">IT/Yazılım Geliştirme</option>
+                            <option value="2">İnsan Kaynakları</option>
+                            <option value="3">Muhasebe</option>
+                        </select>
+                    </div>
+                    <div class="form-group ml-3">
+                        <label for="tecrube" class="text-white">Tecrübe Seviyesi</label>
+                        <br>
+                        <div class="custom-control custom-radio custom-control-inline text-white">
+                            <input type="radio" id="rd0" name="secenek" class="custom-control-input" required>
+                            <label for="rd0" class="custom-control-label">Yeni Mezun</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline text-white">
+                            <input type="radio" id="rd1" name="secenek" class="custom-control-input" required>
+                            <label for="rd1" class="custom-control-label">+2 Yıl Tecrübe</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline text-white">
+                            <input type="radio" id="rd2" name="secenek" class="custom-control-input" required>
+                            <label for="rd2" class="custom-control-label">+5 Yıl Tecrübe</label>
+                        </div>
+                    </div>
+                    <div class="form-group ml-3">
+                        <label for="cv" class="text-white">CV</label>
+                        <br>
+                        <input type="file" id="cv" class="form-control-file text-white" required>
+                    </div>
+                    <br><br>
+                    <button type="submit" class="btn btn-outline-success btn-lg ml-3">Başvur</button>
+                </div>
+            </form>
+        </div>
+        <i onclick="smoothScroll(document.getElementById('iletisim'))"
+            class="fas fa-angle-double-down fa-7x d-flex justify-content-center"></i>
+    </div>
+    <div id="iletisim" style="height: 660px;" class="bg p-5">
+        <h1 class="text-white text-center"><br>İletişim</h1>
+        <form>
+            <div class="form-group ml-3">
+                <label for="adsoyadiletisim" class="text-white">Ad Soyad</label>
+                <input type="text" id="adsoyad" class="form-control w-50" required>
+            </div>
+            <div class="form-group ml-3">
+                <label for="epostailetisim" class="text-white">E-Posta</label>
+                <input type="email" id="epostailetisim" class="form-control w-50" required>
+            </div>
+            <div class="form-group ml-3">
+                <label for="mesajiletisim" class="text-white">Mesaj</label>
+                <textarea style="resize: none;" name="mesajiletisim" id="mesajiletisim" cols="30" rows="7"
+                    class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-danger btn-lg ml-3">Gönder</button>
+        </form>
+    </div>
+    <footer class="bg-dark text-white text-center p-3">Tüm hakları saklıdır. © 2020 | design by Gürhan</footer>
+    <script>
+        window.smoothScroll = function (target) {
+            var scrollContainer = target;
+            do {
+                scrollContainer = scrollContainer.parentNode;
+                if (!scrollContainer) return;
+                scrollContainer.scrollTop += 1;
+            } while (scrollContainer.scrollTop == 0);
+
+            var targetY = 0;
+            do {
+                if (target == scrollContainer) break;
+                targetY += target.offsetTop;
+            } while (target = target.offsetParent);
+
+            scroll = function (c, a, b, i) {
+                i++;
+                if (i > 30) return;
+                c.scrollTop = a + (b - a) / 30 * i;
+                setTimeout(function () {
+                    scroll(c, a, b, i);
+                }, 20);
+            }
+            scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

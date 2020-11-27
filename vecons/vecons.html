@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Değişik, tuhaf, eğlenceli, farklı tarzda ilgini çekebilecek t-shirtler!">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="icon" href="site-icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="site-icon.png" type="image/x-icon" />
+    <title>vecons - Değişik, tuhaf, eğlenceli!</title>
+    <style>
+        * {
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .btn {
+            border-radius: 500px;
+        }
+
+        .logo {
+            color: #88c9f2ff;
+        }
+
+        .logo:hover {
+            color: #88c9f2ff;
+        }
+
+        .input-group-text {
+            background: none;
+        }
+
+        .store,
+        .illustrations,
+        .guide {
+            margin-right: 30px;
+        }
+
+        .store,
+        .illustrations,
+        .guide {
+            color: #04bf9dff;
+            transition: opacity 0.3s;
+        }
+
+        .store:hover,
+        .illustrations:hover,
+        .guide:hover {
+            color: #04bf9dff;
+            opacity: 0.8;
+        }
+
+        .first {
+            background-color: #f0f0f2ff;
+            height: 585px;
+        }
+
+        .first-text {
+            color: #a65151ff;
+            font-size: 75px;
+            margin-left: 25%;
+            margin-top: 15%;
+        }
+
+        .browse-store {
+            background-color: #038c73ff;
+            font-size: 30px;
+            padding: 15px;
+            border-radius: 50px;
+            color: white;
+            transition: opacity 0.3s;
+            margin-left: 25%;
+        }
+
+        .browse-store:hover {
+            background-color: #038c73ff;
+            color: white;
+            opacity: 0.8;
+        }
+
+        .illustration-1 {
+            width: 100%;
+        }
+
+        .second {
+            background-color: white;
+            height: 600px;
+        }
+
+        .second-header {
+            color: #04bf9dff;
+            font-size: 50px;
+            margin-left: 5%;
+        }
+
+        .card {
+            border: none;
+        }
+
+        .examine {
+            background-color: #038c73ff;
+            font-size: 15px;
+            padding: 15px;
+            border-radius: 50px;
+            color: white;
+            transition: opacity 0.3s;
+        }
+
+        .examine:hover {
+            background-color: #038c73ff;
+            color: white;
+            opacity: 0.8;
+        }
+
+        .third {
+            background-color: #a65151ff;
+            height: 615px;
+        }
+
+        .third-header {
+            color: #f0f0f2ff;
+            font-size: 50px;
+            margin-left: 5%;
+        }
+
+        .illustration-2 {
+            width: 75%;
+        }
+
+        .third-text {
+            color: #f0f0f2ff;
+            font-size: 25px;
+            margin-top: 15%;
+        }
+
+        .play-spotify {
+            background-color: #038c73ff;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 50px;
+            color: white;
+            transition: opacity 0.3s;
+        }
+
+        .play-spotify:hover {
+            background-color: #038c73ff;
+            color: white;
+            opacity: 0.8;
+        }
+
+        .page-footer {
+            background-color: #88c9f2ff;
+        }
+
+        .footer-text {
+            color: #f0f0f2ff;
+        }
+
+        @media only screen and (max-width: 992px) {
+
+            .store,
+            .illustrations,
+            .guide {
+                margin-right: 15px;
+            }
+
+            .third {
+                margin-top: 40%;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            .store,
+            .illustrations,
+            .guide {
+                margin-right: 16px;
+            }
+
+            .third-header {
+                font-size: 40px;
+            }
+
+            .illustration-2 {
+                width: 100%;
+            }
+
+            .third-text {
+                font-size: 20px;
+            }
+
+            .examine {
+                width: 50%;
+                margin-left: 20%;
+            }
+
+            .item {
+                width: 90%;
+            }
+        }
+
+        @media only screen and (max-width: 576px) {
+
+            .store,
+            .illustrations,
+            .guide {
+                margin-right: 15px;
+            }
+
+            .third-header {
+                font-size: 30px;
+            }
+
+            .third-text {
+                font-size: 15px;
+            }
+
+            .illustration-1 {
+                margin-top: 15%;
+                margin-left: 15%;
+            }
+
+            .illustration-2 {
+                width: 100%;
+            }
+
+            .browse-store {
+                font-size: 20px;
+            }
+
+            .examine {
+                width: 50%;
+                margin-left: 20%;
+            }
+
+            .play-spotify {
+                font-size: 15px;
+            }
+
+            .third {
+                margin-top: 25%;
+            }
+
+            .item {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navigation">
+        <nav class="navbar navbar-expand fixed-top bg-white">
+            <a href="#" class="text-decoration-none">
+                <h1 class="d-inline logo">
+                    <b>
+                        vecons
+                    </b>
+                </h1>
+            </a>
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a href="#" class="text-decoration-none store">
+                        Mağaza
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="text-decoration-none illustrations">
+                        İllüstrasyonlar
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="text-decoration-none guide">
+                        Rehber
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <br><br><br>
+    <div class="container-fluid">
+        <div class="first">
+            <div class="row">
+                <div class="col-6">
+                    <p class="first-text">
+                        Değişik,
+                        <br>
+                        tuhaf,
+                        <br>
+                        eğlenceli!
+                    </p>
+                    <br>
+                    <a class="text-decoration-none browse-store" href="#" role="button">
+                        Göz at
+                    </a>
+                </div>
+                <div class="col-6">
+                    <img class="illustration-1" src="illustration-1.png" alt="illustration-1">
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <br>
+            <p class="second-header">
+                Popüler olanlar
+            </p>
+            <br><br><br>
+            <div class="owl-carousel owl-theme d-flex justify-content-center">
+                <div class="card">
+                    <div class="item">
+                        <img class="card-img-top" src="image-1.png" alt="image-1">
+                    </div>
+                    <div class="card-body">
+                        <a class="text-decoration-none card-text d-flex justify-content-center 
+                        examine" href="#" role="button">
+                            İncele
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="item">
+                        <img class="card-img-top" src="image-2.png" alt="image-2">
+                    </div>
+                    <div class="card-body">
+                        <a class="text-decoration-none card-text d-flex justify-content-center 
+                        examine" href="#" role="button">
+                            İncele
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="item">
+                        <img class="card-img-top" src="image-3.png" alt="image-3">
+                    </div>
+                    <div class="card-body">
+                        <a class="text-decoration-none card-text d-flex justify-content-center 
+                        examine" href="#" role="button">
+                            İncele
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third">
+            <br>
+            <p class="third-header">
+                Oynatma listemize göz at
+            </p>
+            <div class="row">
+                <div class="col-6">
+                    <img class="illustration-2" src="illustration-2.png" alt="illustration-2">
+                </div>
+                <div class="col-6">
+                    <p class="third-text">
+                        Anadolu Rock dinlemeyi seviyorsan,
+                        <br>
+                        Spotify oynatma listemize bi göz at deriz.
+                        <br><br>
+                        Henüz Anadolu Rock dinlemediysen
+                        <br>
+                        de bi göz atmanı tavsiye deriz,
+                        <br>
+                        zaten seveceksin.
+                    </p>
+                    <br>
+                    <a class="text-decoration-none play-spotify" href="#" role="button">
+                        Spotify'da çal
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer">
+            <p class="footer-text text-center mb-0">
+                © vecons | 2020
+            </p>
+        </footer>
+    </div>
+
+    <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

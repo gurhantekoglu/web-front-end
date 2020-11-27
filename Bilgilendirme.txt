@@ -1,0 +1,1 @@
+GitHub 100 dosyadan fazlasına izin vermediği için OwlCarousel2-2.3.4 klasörünü yükleyemedim.

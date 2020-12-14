@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknolayer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/17ca538820.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .first {
+            background-image: linear-gradient(to right, #175C7F, #FF4B33)
+        }
+
+        .first-title {
+            font-size: 200px;
+            color: #ffffffff;
+        }
+
+        .first-paragraph {
+            font-size: 20px;
+            color: #ffffffff;
+        }
+
+        .item-1 a,
+        .item-2 a,
+        .item-3 a,
+        .item-4 a {
+            color: #ffffffff;
+            transition: opacity 0.3s;
+        }
+
+        .item-1 a:hover,
+        .item-2 a:hover,
+        .item-3 a:hover,
+        .item-4 a:hover {
+            color: #ffffffff;
+            opacity: 0.8;
+        }
+
+        .card-title {
+            color: #333333ff;
+        }
+
+        .date {
+            color: #333333ff;
+        }
+
+        .card-text {
+            color: #ccccccff;
+        }
+
+        .read-more {
+            color: #ffffffff;
+            background-color: #ff4b33ff;
+            border-radius: 50px;
+            transition: opacity 0.3s;
+        }
+
+        .read-more:hover {
+            color: #ffffffff;
+            opacity: 0.8;
+        }
+
+        .page-link {
+            color: #ffffffff;
+            background-color: #ccccccff;
+            transition: opacity 0.3s;
+        }
+
+        .page-link:hover {
+            color: #ffffffff;
+            opacity: 0.8s;
+        }
+
+        .active a {
+            color: #ffffffff;
+            background-color: #333333ff !important;
+
+        }
+
+        .third {
+            background-color: #ccccccff;
+        }
+
+        .footer-text {
+            color: #333333ff;
+        }
+
+        .footer-text a {
+            color: #333333ff;
+        }
+
+        .fa-instagram,
+        .fa-twitter {
+            font-size: 150%;
+            color: #ffffffff;
+            background-color: #175c7fff;
+            transition: opacity 0.3s;
+        }
+
+        .fa-instagram:hover,
+        .fa-twitter:hover {
+            opacity: 0.8;
+        }
+
+        .fa-envelope,
+        .fa-phone-alt {
+            font-size: 100%;
+            color: #ffffffff;
+            background-color: #175c7fff;
+        }
+
+        @media only screen and (max-width: 992px) {
+            .first-title {
+                font-size: 150px;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .first-title {
+                font-size: 100px;
+            }
+        }
+
+        @media only screen and (max-width: 576px) {
+            .first-title {
+                font-size: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        <nav class="navbar navbar-expand">
+            <a href="#" class="text-white navbar-brand mt-3 ml-5">
+                Teknolayer
+            </a>
+            <div class="collapse navbar-collapse mt-3">
+                <ul class="navbar-nav ml-auto">
+                    <li class="item-1 nav-item">
+                        <a href="#" class="nav-link mr-3">
+                            Diller
+                        </a>
+                    </li>
+                    <li class="item-2 nav-item">
+                        <a href="#" class="nav-link mr-3">
+                            Derleyiciler
+                        </a>
+                    </li>
+                    <li class="item-3 nav-item">
+                        <a href="#" class="nav-link mr-3">
+                            Tasarım
+                        </a>
+                    </li>
+                    <li class="item-4 nav-item">
+                        <a href="#" class="nav-link mr-5">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                                <path fill-rule="evenodd"
+                                    d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h5 class="first-title ml-5">
+            Süreklilik
+        </h5>
+        <p class="first-paragraph ml-5">
+            Eğer bir şey yaptıysanız ve mükemmel bir şey olduğu ortaya çıktıysa,
+            <br>
+            ona takılmadan bir sonraki mükemmel şeye başlamanız gerektiğini düşünüyorum.
+            <br><br>
+            Steve Jobs
+        </p>
+        <br>
+    </div>
+    <div class="second">
+        <div class="card border-0 m-5">
+            <img src="python.png" alt="python" class="card-img-top w-25 ml-3">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Python'da OOP Mantığı: Class
+                </h5>
+                <p class="card-text">
+                    <span class="date">30/08/2020</span>
+                    <br>
+                    Gerçek hayattaki bir nesneyi yazılım dünyasında temsil edecek
+                    olan yapıya class denir. Tabi ki bu terim nesne tabanlı programlamayı
+                    daha somut bir şekilde anlamamız için söyleyebileceğimiz bir açıklamadır.
+                </p>
+                <a href="#" class="btn read-more">
+                    Devamını oku
+                </a>
+            </div>
+        </div>
+        <div class="card border-0 m-5">
+            <img src="pycharm.png" alt="pycharm" class="card-img-top w-25 ml-3">
+            <div class="card-body">
+                <h5 class="card-title">
+                    PyCharm Nedir?
+                </h5>
+                <p class="card-text">
+                    <span class="date">04/04/2020</span>
+                    <br>
+                    Pycharm, python için oluşturulmuş IDE programıdır. Python piyasasında
+                    kullanılan en iyi IDE dir. Bu IDE ile çok hızlı ve kolay şekilde uygulama geliştirebilirsiniz.
+                </p>
+                <a href="#" class="btn read-more">
+                    Devamını oku
+                </a>
+            </div>
+        </div>
+        <div class="card border-0 m-5">
+            <img src="adobe-xd.png" alt="adobe-xd" class="card-img-top w-25 ml-4">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Tasarımda Yeni Trend: Adobe Xd
+                </h5>
+                <p class="card-text">
+                    <span class="date">10/01/2020</span>
+                    <br>
+                    Adobe, yeni ürünlerin karşısında UI/UX tasarım için Photoshop
+                    ve Fireworks’un yetersiz kaldığını fark etmiş olacak ki; 2015'te üzerinde
+                    çalıştığını açıkladığı yeni ürününü, 2016 Mart ayında Adobe Experience Design adıyla yayınladı.
+                </p>
+                <a href="#" class="btn read-more">
+                    Devamını oku
+                </a>
+            </div>
+        </div>
+        <nav aria-label="..." class="ml-5">
+            <ul class="pagination ml-4">
+                <li class="page-item active">
+                    <a class="page-link border-0 shadow-none rounded-circle" href="#">
+                        1
+                    </a>
+                </li>
+                <li class="page-item ml-1">
+                    <a class="page-link border-0 shadow-none rounded-circle" href="#">
+                        2
+                    </a>
+                </li>
+                <li class="page-item ml-1">
+                    <a class="page-link border-0 shadow-none rounded-circle" href="#">
+                        3
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="third">
+        <footer class="p-5 ml-3">
+            <div class="row">
+                <div class="col">
+                    <h5 class="footer-text">
+                        Teknolayer
+                    </h5>
+                    <p class="footer-text">
+                        Yazılım ve tasarım hakkında temel
+                        <br>
+                        ve pratik bilgiler, derleyiciler ve
+                        <br>
+                        daha fazlası.
+                    </p>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-decoration-none">
+                        <i class="fab fa-instagram p-3 rounded-circle"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <i class="fab fa-twitter ml-3 p-3 rounded-circle"></i>
+                    </a>
+                </div>
+                <div class="col">
+                    <h5 class="footer-text">
+                        İletişim
+                    </h5>
+                    <i class="far fa-envelope p-2 rounded-circle"></i> <span
+                        class="footer-text"><a href="mailto: teknolayer@gmail.com" class="text-decoration-none" target="_blank">teknolayer@gmail.com</a></span>
+                    <br><br>
+                    <i class="fas fa-phone-alt p-2 rounded-circle"></i> <span class="footer-text">+90 (543) 123
+                        4567</span>
+                </div>
+            </div>
+            <hr>
+            <p class="footer-text text-center">
+                Copyright © 2020 Tüm hakları saklıdır. | design by Gurhan
+            </p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
